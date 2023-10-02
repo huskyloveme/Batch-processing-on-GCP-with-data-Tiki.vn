@@ -1,4 +1,17 @@
-**NOTE:** 
-_Cause of security, I am not upload key.json file on folder cloud function, you can take it from your cloud google console_
+**NOTE**: 
+
+Cause of security, I am not uploading the key.json file on the folder cloud function, you can take it from your cloud Google console
+
+=================================
+
+**Project Description:**
+
+* Handle update data from MongoDB -> Google Bigquery automate 1 time per day
+* Handle with large data (about 30Gb with 1m5 records)
 
 
+=================================
+
+PIPELINE INFRASTRUCTURE:
+
+![](data_flow.png)
