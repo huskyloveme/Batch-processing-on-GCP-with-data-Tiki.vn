@@ -1,0 +1,6 @@
+functions-framework==3.*
+pandas-gbq
+pandas
+gcsfs
+fsspec
+google-cloud-storage
