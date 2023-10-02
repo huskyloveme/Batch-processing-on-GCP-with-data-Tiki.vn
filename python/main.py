@@ -11,10 +11,12 @@ from datetime import datetime
 current_directory = os.path.dirname(os.path.abspath(__file__))
 file_path = os.path.join(current_directory, 'output_final_test.jsonl')
 
+user = os.environ.get('user_mongo')
+pw = os.environ.get('pw_mongo')
 
 # Seting config
 # ========================================================================
-url_mongo_sv = f"mongodb://mark:123456a%40@localhost:27017/?authMechanism=DEFAULT"
+url_mongo_sv = f"mongodb://{user}:{pw}@localhost:27017/?authMechanism=DEFAULT"
 client = pymongo.MongoClient(url_mongo_sv)
 db = client['data_tiki']
 collection = db['products']
