@@ -31,3 +31,4 @@ list_field = [
     'quantity_sold',
     'seller_specifications',
 ]
+
