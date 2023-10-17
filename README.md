@@ -14,4 +14,13 @@ Cause of security, I am not uploading the key.json file on the folder cloud func
 
 PIPELINE INFRASTRUCTURE:
 
-![](data_flow.png)
+![](images/data_flow.png)
+
+LOOKER STUDIO GOOGLE: 
+
+https://lookerstudio.google.com/u/0/reporting/18242aa8-2103-4176-be0d-c1ada84c9e50/page/X4OdD
+
+![img.png](images/img.png)
+![img_1.png](images/img_1.png)
+![img_2.png](images/img_2.png)
+![img_3.png](images/img_3.png)
